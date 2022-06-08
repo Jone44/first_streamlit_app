@@ -1,7 +1,7 @@
 import streamlit
 import pandas
 
-streamlit.title('My parents new sad dinner')
+streamlit.title('My moms new sad dinner')
 
 streamlit.header('Breakfast menu')
 

@@ -23,6 +23,6 @@ fruits_to_show = my_fruit_list.loc[fruits_selected]
 streamlit.dataframe(fruits_selected)
 
 
-streamlit.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
-streamlit.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇') = requests.get("https://fruityvice.com/api_fruit/watermelon")
-treamlit.text(.json())
+streamlit.header('Fruityvice Fruit advice')
+fruityvice_response = requests.get("https://fruityvice.com/api_fruit/watermelon")
+treamlit.text(fruityvice_response.json())

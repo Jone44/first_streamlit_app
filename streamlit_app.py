@@ -36,7 +36,7 @@ streamlit.dataframe(fruits_selected)
 streamlit.header('Fruityvice Fruit advice')
 try:
   fruit_choice = streamlit.text_input('mitä hetelmää sä haluut?')
-  if not fruit choice:
+  if not fruit_choice:
     streamlit.error("Please select a fruit")
   else:
     back_from_function = get_fruityvice_data(fruit_choice)

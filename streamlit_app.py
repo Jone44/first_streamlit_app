@@ -39,3 +39,7 @@ my_cur.execute("SELECT * from fruit_load_list")
 my_data_row = my_cur.fetchall()
 streamlit.header("Hetelmälista sisältää:")
 streamlit.dataframe(my_data_row)
+
+fruit_choice = streamlit.text_input('What fruit to add?', 'kiwi')
+streamlit.write('Adding', fruit_choice)
+

@@ -25,4 +25,4 @@ streamlit.dataframe(fruits_selected)
 
 streamlit.header('Fruityvice Fruit advice')
 fruityvice_response = requests.get("https://fruityvice.com/api_fruit/watermelon")
-treamlit.text(fruityvice_response.json())
+streamlit.text(fruityvice_response.json())
